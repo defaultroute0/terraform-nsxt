@@ -7,19 +7,19 @@ in the same dir as the main.tf file
 
 Step2:
 Initialise the requried NSX-T provider
-**  terraform init**
+  terraform init
 
 Step3:
 Validate the plan
-**  terraform plan **
+  terraform plan 
   
 Step4:
 Execute the plan
-**  terraform apply **
+  terraform apply 
   
 Step5:
 Delete the plan
-**  terraform destroy**
+  terraform destroy
   
 NOTE:
 Be sure to check in the manager portion of the NSX-T UI, as pre NSX-T 3.2, TF uses the management API (not the policy API).
